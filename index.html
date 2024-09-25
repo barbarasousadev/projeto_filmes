@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListaFlix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">ListaFlix</a>
+
+        <div id="mobile-menu-toggle" class="hamburger">
+            &#9776;
+        </div>
+
+        <div class="login-search">
+            <section id="category-buttons">
+                <button id="popular">Populares</button>
+                <button id="now-playing">Agora nos Cinemas</button>
+                <button id="top-rated">Melhores Avaliados</button>
+                <button id="upcoming">Próximos Lançamentos</button>
+            </section>
+            
+            <div id="search-container">
+                <input type="text" id="search-input" placeholder="Buscar filmes...">
+            </div>
+        </div>
+         <div id="mobile-menu" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn">&times;</a>
+            <button id="popular-mobile">Populares</button>
+            <button id="now-playing-mobile">Agora nos Cinemas</button>
+            <button id="top-rated-mobile">Melhores Avaliados</button>
+            <button id="upcoming-mobile">Próximos Lançamentos</button>
+         </div>
+    </nav>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
